@@ -42,7 +42,6 @@
 		737A11282B38C2E800B2653A /* irish-grover.regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 737A11272B38C2E800B2653A /* irish-grover.regular.ttf */; };
 		737A112A2B38CAC700B2653A /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737A11292B38CAC700B2653A /* RegisterScreen.swift */; };
 		737A112F2B38E2E800B2653A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737A112E2B38E2E800B2653A /* CustomTextField.swift */; };
-		737ECFBA2BA7BEDC0035AFE8 /* VoiceDormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737ECFB92BA7BEDC0035AFE8 /* VoiceDormApp.swift */; };
 		737ECFBC2BA7C8A00035AFE8 /* CallKitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737ECFBB2BA7C8A00035AFE8 /* CallKitPage.swift */; };
 		737ECFBE2BA7CA740035AFE8 /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737ECFBD2BA7CA740035AFE8 /* CallManager.swift */; };
 		73807FA92B3CC41B00727438 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73807FA82B3CC41B00727438 /* SettingsScreen.swift */; };
@@ -55,6 +54,7 @@
 		7392987C2B5F105000DF1FBA /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392987B2B5F105000DF1FBA /* AppViewModel.swift */; };
 		7392987E2B5F108600DF1FBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392987D2B5F108600DF1FBA /* ContentView.swift */; };
 		7393E3C12B68FB6C002FFFD7 /* networkErrorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7393E3C02B68FB6C002FFFD7 /* networkErrorScreen.swift */; };
+		7395EA102BA9C958009057CE /* samet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7395EA0F2BA9C958009057CE /* samet.swift */; };
 		739C29C62B3BA428007F1268 /* TabBarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739C29C52B3BA428007F1268 /* TabBarScreen.swift */; };
 		73AA0E8F2BA476B100E2132B /* CallGroupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AA0E8E2BA476B100E2132B /* CallGroupManager.swift */; };
 		73AA0E912BA47D5200E2132B /* CallPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AA0E902BA47D5200E2132B /* CallPage.swift */; };
@@ -138,7 +138,6 @@
 		737A11272B38C2E800B2653A /* irish-grover.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "irish-grover.regular.ttf"; sourceTree = "<group>"; };
 		737A11292B38CAC700B2653A /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		737A112E2B38E2E800B2653A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		737ECFB92BA7BEDC0035AFE8 /* VoiceDormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceDormApp.swift; sourceTree = "<group>"; };
 		737ECFBB2BA7C8A00035AFE8 /* CallKitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallKitPage.swift; sourceTree = "<group>"; };
 		737ECFBD2BA7CA740035AFE8 /* CallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManager.swift; sourceTree = "<group>"; };
 		73807FA82B3CC41B00727438 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
@@ -151,6 +150,7 @@
 		7392987B2B5F105000DF1FBA /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 		7392987D2B5F108600DF1FBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7393E3C02B68FB6C002FFFD7 /* networkErrorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networkErrorScreen.swift; sourceTree = "<group>"; };
+		7395EA0F2BA9C958009057CE /* samet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = samet.swift; sourceTree = "<group>"; };
 		739C29C52B3BA428007F1268 /* TabBarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarScreen.swift; sourceTree = "<group>"; };
 		73AA0E8E2BA476B100E2132B /* CallGroupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallGroupManager.swift; sourceTree = "<group>"; };
 		73AA0E902BA47D5200E2132B /* CallPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallPage.swift; sourceTree = "<group>"; };
@@ -223,7 +223,6 @@
 				00AC06576B0C5143EC50CCCB /* Pods-YanaTests.debug.xcconfig */,
 				FA63CE94E57DF09A68F517DC /* Pods-YanaTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -265,7 +264,6 @@
 			children = (
 				73078E9F2B75486700DA729E /* Yana.entitlements */,
 				737A10FA2B38B24000B2653A /* YanaApp.swift */,
-				737ECFB92BA7BEDC0035AFE8 /* VoiceDormApp.swift */,
 				73807FAA2B3CC52000727438 /* Features.swift */,
 				737A11272B38C2E800B2653A /* irish-grover.regular.ttf */,
 				73BC836F2B55B54C0066BDD3 /* GoogleService-Info.plist */,
@@ -397,6 +395,7 @@
 			children = (
 				73BC836B2B55B3DE0066BDD3 /* LoginScreenViewModel.swift */,
 				73BC836D2B55B3ED0066BDD3 /* RegisterScreenViewModel.swift */,
+				7395EA0F2BA9C958009057CE /* samet.swift */,
 				7392987B2B5F105000DF1FBA /* AppViewModel.swift */,
 				73217E222BA7294E00F3BCBD /* ZegoCloudManager.swift */,
 				73AA0E8E2BA476B100E2132B /* CallGroupManager.swift */,
@@ -688,7 +687,6 @@
 				73807FAB2B3CC52000727438 /* Features.swift in Sources */,
 				73D362712B3B9C3C00AE7170 /* HomeScreen.swift in Sources */,
 				73AA0E962BA4887700E2132B /* CallRoomItems.swift in Sources */,
-				737ECFBA2BA7BEDC0035AFE8 /* VoiceDormApp.swift in Sources */,
 				73217E232BA7294E00F3BCBD /* ZegoCloudManager.swift in Sources */,
 				7370DAA42B6A8F8D00104F18 /* ChatGroupView.swift in Sources */,
 				732246D32B681124007E7444 /* ProfileSettingsScreen.swift in Sources */,
@@ -701,6 +699,7 @@
 				73AA0E9B2BA489C100E2132B /* ShowRoomScreen.swift in Sources */,
 				7382823C2B438950000AFA4A /* CustomHomePageItems.swift in Sources */,
 				732246D72B68290A007E7444 /* ProfileSettings.swift in Sources */,
+				7395EA102BA9C958009057CE /* samet.swift in Sources */,
 				73AA0E8F2BA476B100E2132B /* CallGroupManager.swift in Sources */,
 				7379E9502B3E4D6300AD899F /* SmallCrisisScreen.swift in Sources */,
 				737A10FD2B38B24000B2653A /* SplashScreen.swift in Sources */,
