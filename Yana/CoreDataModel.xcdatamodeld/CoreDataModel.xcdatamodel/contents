@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23C71" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="MessageModel" representedClassName="MessageModel" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="groupId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="message" optional="YES" attributeType="String"/>
+        <attribute name="messageId" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UsersModel" representedClassName="UsersModel" syncable="YES" codeGenerationType="class"/>
+</model>

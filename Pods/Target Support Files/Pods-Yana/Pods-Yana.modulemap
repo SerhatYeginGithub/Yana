@@ -1,0 +1,6 @@
+framework module Pods_Yana {
+  umbrella header "Pods-Yana-umbrella.h"
+
+  export *
+  module * { export * }
+}
